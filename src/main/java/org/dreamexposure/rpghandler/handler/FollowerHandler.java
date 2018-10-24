@@ -32,7 +32,7 @@ public class FollowerHandler {
     public static void unfollow(Player player, String god) {
         List<String> followers = RPGHandler.get().followers.get().getStringList(god);
     
-        if (!followers.contains(player.getUniqueId().toString())) {
+        if (followers.contains(player.getUniqueId().toString())) {
             followers.remove(player.getUniqueId().toString());
             RPGHandler.get().followers.get().set(god, followers);
             RPGHandler.get().followers.save();
