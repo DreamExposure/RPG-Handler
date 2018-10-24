@@ -1,0 +1,9 @@
+name: RPGHandler
+version: ${project.version}
+main: org.dreamexposure.rpghandler.RPGHandler
+prefix: [RPG]
+load: STARTUP
+depend: [NovaLib]
+authors: [DreamExposure]
+description: Handles several functions for the Infectus Caelestis RPG.
+website: https://dreamexposure.org
