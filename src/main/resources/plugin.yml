@@ -21,7 +21,7 @@ commands:
     permission: prg.command.unfollow
 
 permissions:
-  iw.econ.bypass:
+  rpg.command.follow:
     description: Allows following a God.
     default: true
   rpg.command.unfollow:
