@@ -1,7 +1,6 @@
 name: RPGHandler
 version: ${project.version}
 main: org.dreamexposure.rpghandler.RPGHandler
-load: STARTUP
 api-version: 1.13
 
 prefix: RPG
