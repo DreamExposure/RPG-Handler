@@ -13,6 +13,7 @@ import java.util.LinkedHashMap;
  * Company Website: https://www.dreamexposure.org
  * Contact: nova@dreamexposure.org
  */
+@SuppressWarnings("ConstantConditions")
 public class MessageManager {
         public static LinkedHashMap<String, Object> getMessages() {
             LinkedHashMap<String, Object> m = new LinkedHashMap<>();
